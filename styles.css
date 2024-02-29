@@ -1,0 +1,143 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+nav {
+    background-color: #2c3e50;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ecf0f1;
+    font-size: 18px;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #3498db;
+}
+
+section {
+    padding: 40px 0;
+}
+
+section h2 {
+    color: #3498db;
+}
+
+.bg-blue {
+    background-color: #3498db;
+}
+
+.text-blue {
+    color: #3498db;
+}
+
+.text-gray {
+    color: #34495e;
+}
+
+.skills-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills-list li {
+    display: inline-block;
+    background-color: #3498db;
+    color: #ecf0f1;
+    font-size: 14px;
+    padding: 8px 16px;
+    margin: 8px;
+    border-radius: 20px;
+}
+
+.contact-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-form input,
+.contact-form button {
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+#education,
+#projects,
+#certificates,
+#achievements {
+    padding: 40px 0;
+}
+
+#education h2,
+#projects h2,
+#certificates h2,
+#achievements h2 {
+    color: #3498db;
+}
+
+#education h3,
+#projects h3,
+#certificates h3,
+#achievements h3 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+#education p,
+#projects p,
+#certificates p,
+#achievements p {
+    color: #34495e;
+}
+
+#education,
+#projects,
+#certificates,
+#achievements {
+    border-bottom: 1px solid #ecf0f1;
+}
+
+#education:last-child,
+#projects:last-child,
+#certificates:last-child,
+#achievements:last-child {
+    border-bottom: none;
+}
+
+footer {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer a {
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #3498db;
+}
